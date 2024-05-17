@@ -12,3 +12,4 @@
 + Player Profile 
 + Team Chat
 + Date Planner
++ Information Booth 
