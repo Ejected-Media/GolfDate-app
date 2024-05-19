@@ -9,6 +9,15 @@
 
 <style>
 
+
+.appNav_wrap { outline: 1px dashed #555; padding: 3px; width: 85%; margin: 0 auto; }
+
+.appNav_wrap ul { padding-left: 15px; }
+
+.appNav_wrap li { outline: 1px solid #bbb; padding: 7px; margin: 4px; margin-right: 7px; position: relative; }
+
+.appNav_wrap li button { position: absolute; right: 15px; }
+
 .page_name_wrap { text-align: center; width: 65%; margin: 0 auto; border-bottom: 1px solid #777; padding: 10px; }
     
     
@@ -27,16 +36,16 @@
 
 <main>
     
-<div>
+<div class="appNav_wrap">
     
 <p><b>_ tee time</b></p>
 
 <ul>
-  <li>+ Location Map</li>
-  <li>+ Schedule Calendar</li>
-  <li>+ Course Map</li>
-  <li>+ <b>Score Card</b></li>
-  <li>+ Match History</li>
+  <li>+ Location Map <button>open</button></li>
+  <li>+ Schedule Calendar <button>open</button></li>
+  <li>+ Course Map <button>open</button></li>
+  <li>+ <b>Score Card</b> <button>close</button></li>
+  <li>+ Match History <button>open</button></li>
 </ul>
 
 </div>
