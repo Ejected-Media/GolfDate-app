@@ -1,15 +1,31 @@
 # GolfDate-app
-
---
-
-+ Location Map
-+ Schedule Calendar 
-+ Contact List
-+ Score Card
-+ Dashboard Interface 
-+ Welcome Screen
-+ Login Center
-+ Player Profile 
-+ Team Chat
-+ Date Planner
-+ Information Booth 
++ 
++ --
++ 
++ ### _ non-user
++ 
++ + Welcome Screen
++ + Information Booth 
++ + Login Center
++ + About App
++ 
++ 
++ ### _ setting match
++ 
++ + Dashboard Interface 
++ + Player Profile 
++ + Contact List
++ + Team Chat
++ + Date Planner
++ 
++ 
++ ### _ tee time
++ 
++ + Location Map
++ + Schedule Calendar 
++ + Course Map
++ + Score Card
++ + Match History
++ 
++ 
++ 
