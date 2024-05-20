@@ -4,10 +4,24 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title></title>
+  <title>~Player Profile # GolfDate-app</title>
   
   
 <style>
+
+.topBar_wrap { position: relative; }
+
+.userLogin_wrap { position: absolute; right: 15px; top: 3px; font-size: 11px; color: blue; }
+
+.userName_wrap { position: absolute; bottom: 7px; right: 15px; font-size: 10px; color: #aaa; border-right: 3px solid #888; padding-right:10px; letter-spacing: .08em; }
+
+.appNav_wrap { outline: 1px dashed #555; padding: 3px; width: 85%; margin: 0 auto; margin-top: 15px; }
+
+.appNav_wrap ul { padding-left: 15px; }
+
+.appNav_wrap li { outline: 1px solid #bbb; padding: 7px; margin: 4px; margin-right: 7px; position: relative; }
+
+.appNav_wrap li button { position: absolute; right: 15px; }
 
 .page_name_wrap { text-align: center; width: 65%; margin: 0 auto; border-bottom: 1px solid #777; padding: 10px; }
     
@@ -18,24 +32,34 @@
 
 <body>
 
-# GolfDate-app
+<div class="topBar_wrap">
+
+# Golf<i>Date</i>-app
 
 --
 
+<div class="userLogin_wrap">login</div>
+
 <br /><hr /><br />
+
+<div class="userName_wrap">no user profile</div>
+
+
+</div><!-- - .topBar_wrap - -->
+
 
 <main>
     
-<div>
+<div class="appNav_wrap">
 
 <p><b>_ setting match</b></p>
 
 <ul>
-  <li>+ Dashboard Interface</li>
-  <li>+ <b>Player Profile</b></li>
-  <li>+ Contact List</li>
-  <li>+ Team Chat</li>
-  <li>+ Date Planner</li>
+  <li>+ Dashboard Interface <button>open</button></li>
+  <li>+ <b>Player Profile</b> <button>close</button></li>
+  <li>+ Contact List <button>open</button></li>
+  <li>+ Team Chat <button>open</button></li>
+  <li>+ Date Planner <button>open</button></li>
 </ul>
 
 </div>
