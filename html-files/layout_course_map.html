@@ -9,13 +9,26 @@
 
 <style>
 
-.appNav_wrap { outline: 1px dashed #555; padding: 3px; width: 85%; margin: 0 auto; }
+
+.topBar_wrap { position: relative; }
+
+.userLogin_wrap { position: absolute; right: 15px; top: 3px; font-size: 11px; color: blue; }
+
+.userName_wrap { position: absolute; bottom: 7px; right: 15px; font-size: 10px; color: #aaa; border-right: 3px solid #888; padding-right:10px; letter-spacing: .08em; }
+
+.appNav_wrap { border-top: 2px solid #999; padding: 3px; width: 85%; margin: 0 auto; margin-top: 15px; }
 
 .appNav_wrap ul { padding-left: 15px; }
 
 .appNav_wrap li { outline: 1px solid #bbb; padding: 7px; margin: 4px; margin-right: 7px; position: relative; }
 
 .appNav_wrap li button { position: absolute; right: 15px; }
+
+.appNav_name { font-size: 10px; color: #aaa; padding: 2px; margin: 1px; font-family: monospace; }
+
+.appNav_data { outline: 1px dashed #555; padding: 8px; }
+
+.navList_name { border-left: 4px solid #777; padding: 3px; padding-left: 25px; }
 
 .page_name_wrap { text-align: center; width: 65%; margin: 0 auto; border-bottom: 1px solid #777; padding: 10px; }
     
@@ -26,17 +39,35 @@
 
 <body>
 
-# GolfDate-app
+
+<div class="topBar_wrap">
+
+# Golf<i>Date</i>-app
 
 --
 
+<div class="userLogin_wrap">login</div>
+
 <br /><hr /><br />
+
+<div class="userName_wrap">no user profile</div>
+
+
+</div><!-- - .topBar_wrap - -->
+
 
 <main>
     
 <div class="appNav_wrap">
-    
-<p><b>_ tee time</b></p>
+
+ <div class="appNav_name">appNav_wrap</div>
+
+ <div class="appNav_data">
+
+<div class="navList_name">
+  <p><b>_ Tee Time</b></p>
+</div>
+
 
 <ul>
   <li>+ Location Map <button>open</button></li>
@@ -45,6 +76,9 @@
   <li>+ Score Card <button>open</button></li>
   <li>+ Match History <button>open</button></li>
 </ul>
+
+
+ </div><!-- - . appNav_data - -->
 
 </div>
 
