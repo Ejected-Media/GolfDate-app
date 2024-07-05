@@ -1,6 +1,22 @@
 # GolfDate-app
 
---
+--  
+
+_ ` ... ` ~
+
+--- 
+_ ` ... ` ~
+
+### GolfDate-me ~
+- What - // Match Type °
+- When - // Tee Time ° 
+- Where - // Course Location °
+- Who - // Player Buddy Contact List °
+- Why - // Reason for Match °
+- How - // Price and Payment Info °
+
+--- 
+_ ` ... ` ~ 
 
 ### _ non-user
 
@@ -26,3 +42,5 @@
 + Course Map
 + Score Card
 + Match History
+
+
