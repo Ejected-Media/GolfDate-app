@@ -102,6 +102,62 @@ func main() {
   
   http.HandleFunc("/settings", indexHandler)
   
+http.HandleFunc("/settings", indexHandler)
+- What - // Match Type °
+
+http.HandleFunc("/settings", indexHandler)
+- When - // Tee Time ° 
+http.HandleFunc("/settings", indexHandler)
+- Where - // Course Location °
+http.HandleFunc("/settings", indexHandler)
+- Who - // Player Buddy Contact List °
+http.HandleFunc("/settings", indexHandler)
+- Why - // Reason for Match °
+http.HandleFunc("/settings", indexHandler)
+- How - // Price and Payment Info °
+
+--- 
+_ ` ... ` ~ 
+
+### _ non-user
+http.HandleFunc("/settings", indexHandler)
++ Welcome Screen
+http.HandleFunc("/settings", indexHandler)
++ Information Booth 
+http.HandleFunc("/settings", indexHandler)
++ Login Center
+http.HandleFunc("/settings", indexHandler)
++ About App
+
+
+### _ setting match
+
+http.HandleFunc("/settings", indexHandler)
++ Dashboard Interface 
+http.HandleFunc("/settings", indexHandler)
++ Player Profile 
+http.HandleFunc("/settings", indexHandler)
++ Contact List
+http.HandleFunc("/settings", indexHandler)
++ Team Chat
+http.HandleFunc("/settings", indexHandler)
++ Date Planner
+
+
+### _ tee time
+
+http.HandleFunc("/settings", indexHandler)
++ Location Map
+http.HandleFunc("/settings", indexHandler)
++ Schedule Calendar 
+http.HandleFunc("/settings", indexHandler)
++ Course Map
+http.HandleFunc("/settings", indexHandler)
++ Score Card
+http.HandleFunc("/settings", indexHandler)
++ Match History
+
+
 
 
 
