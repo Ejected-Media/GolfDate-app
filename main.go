@@ -36,7 +36,7 @@ type navList struct {
 
 // ,  ° . +
 type GolfPageData struct {
-    PageTitle string
+    pageTitle string
     PagePath string
     PageName string
     SOSNav     []navList
