@@ -127,13 +127,13 @@ func indexHandler(w http.ResponseWriter, r *http.Request) {
 // , ° . +
   pageTitle := "www.GolfDate.me  ° // - Website App ~"
   pagePath := r.URL.Path
-  pageType := ".."
+//  pageType := ".."
 
 
 // ,  ° . +
 pageData := GolfPageData {
       pageTitle: pageTitle,
-      pagePath: pagePath,
+   //   pagePath: pagePath,
       
       SOSNav: []navList {
           { pageTitle: "one", pageID: "one"},
@@ -237,7 +237,7 @@ pageData := GolfPageData {
 
     if pagePath == "/information_booth" {
       pageTitle = "Information Booth Page"
-      pageList = pageList
+    //  pageList = pageList
   }
   
   
@@ -400,9 +400,9 @@ func main() {
   
   // ,  ° . +
 http.HandleFunc("/what", indexHandler)
-- What - // Match Type °
+//- What - // Match Type °
 
-http.HandleFunc("/when", indexHandler)
+//http.HandleFunc("/when", indexHandler)
 // - When - // Tee Time ° 
 http.HandleFunc("/where", indexHandler)
 // - Where - // Course Location °
