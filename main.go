@@ -17,6 +17,15 @@ import (
 
 )
 
+
+type pageList struct {
+    pageTitle string
+    pageName string
+    pageID string
+    Done  bool
+}
+
+
 type navList struct {
     pageTitle string
     pageName string
