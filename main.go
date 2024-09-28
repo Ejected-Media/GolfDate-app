@@ -131,14 +131,14 @@ func indexHandler(w http.ResponseWriter, r *http.Request) {
 
 
 // ,  ° . +
-pageData := htmlPageData {
+pageData := GolfPageData {
       pageTitle: pageTitle,
       pagePath: pagePath,
       
-      pageList: []pageNav {
-          { pageTitle: "one", pageLink: "one"},
-          { pageTitle: "two", pageLink: "two"},
-          { pageTitle: "three", pageLink: "three"},
+      SOSNav: []navList {
+          { pageTitle: "one", pageID: "one"},
+          { pageTitle: "two", pageID: "two"},
+          { pageTitle: "three", pageID: "three"},
       },
   	
   }  //. .  pageData
@@ -146,27 +146,27 @@ pageData := htmlPageData {
   
   if pagePath == "/" {
       pageTitle = "Index Page"
-      pageList = pageList
+  //    pageList = pageList
   }
   
     if pagePath == "/front" {
       pageTitle = "Front Page"
-      pageList = pageList
+ //     pageList = pageList
   }
   
     if pagePath == "/main" {
       pageTitle = "Main Page"
-      pageList = pageList
+//      pageList = pageList
   }
   
     if pagePath == "/home" {
       pageTitle = "Home Page"
-      pageList = pageList
+  //    pageList = pageList
   }
   
     if pagePath == "/start" {
       pageTitle = "Start Page"
-      pageList = pageList
+ //     pageList = pageList
   }
   
   
@@ -176,7 +176,7 @@ pageData := htmlPageData {
 
     if pagePath == "/what" {
       pageTitle = "What Page"
-      pageList = pageList
+ //     pageList = pageList
   }
 
 // ~ http.HandleFunc("/when", indexHandler)
@@ -184,7 +184,7 @@ pageData := htmlPageData {
 
     if pagePath == "/when" {
       pageTitle = "When Page"
-      pageList = pageList
+  //    pageList = pageList
   }
   
 // ~ http.HandleFunc("/where", indexHandler)
@@ -192,7 +192,7 @@ pageData := htmlPageData {
 
     if pagePath == "/where" {
       pageTitle = "Where Page"
-      pageList = pageList
+    //  pageList = pageList
   }
   
 // ~ http.HandleFunc("/who", indexHandler)
@@ -200,7 +200,7 @@ pageData := htmlPageData {
 
     if pagePath == "/who" {
       pageTitle = "Who Page"
-      pageList = pageList
+  //    pageList = pageList
   }
   
   
@@ -209,7 +209,7 @@ pageData := htmlPageData {
 
     if pagePath == "/why" {
       pageTitle = "Why Page"
-      pageList = pageList
+   //   pageList = pageList
   }
   
 // ~ http.HandleFunc("/how", indexHandler)
@@ -217,7 +217,7 @@ pageData := htmlPageData {
 
     if pagePath == "/how" {
       pageTitle = "How Page"
-      pageList = pageList
+   //   pageList = pageList
   }
 
 
@@ -229,7 +229,7 @@ pageData := htmlPageData {
 
     if pagePath == "/welcome_screen" {
       pageTitle = "Welcome Screen Page"
-      pageList = pageList
+  //    pageList = pageList
   }
   
 // ~ http.HandleFunc("/information_booth", indexHandler)
@@ -246,7 +246,7 @@ pageData := htmlPageData {
 
     if pagePath == "/login_center" {
       pageTitle = "Login Center Page"
-      pageList = pageList
+ ///     pageList = pageList
   }
   
   
@@ -255,7 +255,7 @@ pageData := htmlPageData {
 
     if pagePath == "/about_app" {
       pageTitle = "About App Page"
-      pageList = pageList
+   //   pageList = pageList
   }
 
 // ,  ° . +
@@ -266,7 +266,7 @@ pageData := htmlPageData {
 
     if pagePath == "/dashboard_interface" {
       pageTitle = "Dashboard Interface Page"
-      pageList = pageList
+  //    pageList = pageList
   }
   
   
@@ -275,7 +275,7 @@ pageData := htmlPageData {
 
     if pagePath == "/player_profile" {
       pageTitle = "Player Profile Page"
-      pageList = pageList
+  //    pageList = pageList
   }
   
   
@@ -284,7 +284,7 @@ pageData := htmlPageData {
 
     if pagePath == "/contact_list" {
       pageTitle = "Contact List Page"
-      pageList = pageList
+  //    pageList = pageList
   }
   
   
@@ -293,7 +293,7 @@ pageData := htmlPageData {
 
     if pagePath == "/team_chat" {
       pageTitle = "Team Chat Page"
-      pageList = pageList
+  //    pageList = pageList
   }
   
   
@@ -302,7 +302,7 @@ pageData := htmlPageData {
 
     if pagePath == "/date_planner" {
       pageTitle = "Date Planner Page"
-      pageList = pageList
+  //    pageList = pageList
   }
 
 // ,  ° . +
@@ -313,7 +313,7 @@ pageData := htmlPageData {
 
     if pagePath == "/location_map" {
       pageTitle = "Location Map Page"
-      pageList = pageList
+  //    pageList = pageList
   }
   
   
@@ -322,7 +322,7 @@ pageData := htmlPageData {
 
     if pagePath == "/schedule_calendar" {
       pageTitle = "Schedule Calendar Page"
-      pageList = pageList
+ //     pageList = pageList
   }
   
   
@@ -331,7 +331,7 @@ pageData := htmlPageData {
 
     if pagePath == "/course_map" {
       pageTitle = "Course Map Page"
-      pageList = pageList
+//      pageList = pageList
   }
   
   
@@ -340,7 +340,7 @@ pageData := htmlPageData {
 
     if pagePath == "/score_card" {
       pageTitle = "Score Card Page"
-      pageList = pageList
+  //    pageList = pageList
   }
   
   
@@ -349,7 +349,7 @@ pageData := htmlPageData {
 
     if pagePath == "/match_history" {
       pageTitle = "Match History Page"
-      pageList = pageList
+   //   pageList = pageList
   }
 
 
