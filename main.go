@@ -213,7 +213,7 @@ pageData := htmlPageData {
 
 
 // ,  ° . +
-### _ non-user
+// ### _ non-user
 
 // ~ http.HandleFunc("/welcome_screen", indexHandler)
 // + Welcome Screen
@@ -297,7 +297,7 @@ pageData := htmlPageData {
   }
 
 // ,  ° . +
-### _ tee time
+// ### _ tee time
 
 // ~ http.HandleFunc("/location_map", indexHandler)
 // + Location Map
@@ -419,7 +419,7 @@ http.HandleFunc("/about_app", indexHandler)
 // + About App
 
 // ,  ° . +
-### _ setting match
+// ### _ setting match
 
 http.HandleFunc("/dashboard_interface", indexHandler)
 // + Dashboard Interface 
@@ -433,7 +433,7 @@ http.HandleFunc("/date_planner", indexHandler)
 // + Date Planner
 
 // ,  ° . +
-### _ tee time
+// ### _ tee time
 
 http.HandleFunc("/location_map", indexHandler)
 // + Location Map
